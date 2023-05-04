@@ -29,10 +29,10 @@ public class Question3 {
 		}
 		driver.findElement(By.xpath("//*[@id=\"nav-link-accountList\"]")).click();
 		WebElement txtBoxl=driver.findElement(By.xpath("//*[@id=\"ap_email\"]"));
-		txtBoxl.sendKeys("+91733962038");
+		txtBoxl.sendKeys("##########");
 		driver.findElement(By.xpath("//*[@id=\"continue\"]")).click();
 		WebElement txtBox2=driver.findElement(By.xpath("//*[@id=\"ap_password\"]"));
-		txtBox2.sendKeys("@Meen123786");
+		txtBox2.sendKeys("########");
 		driver.findElement(By.xpath("//*[@id=\"signInSubmit\"]")).click();
 		
 		driver.findElement(By.xpath("//*[@id=\"nav-link-accountList\"]")).click();
