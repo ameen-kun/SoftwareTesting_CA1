@@ -59,9 +59,9 @@ public class Question1 {
 	  driver.manage().window().maximize();
 	  driver.get("https://www.amazon.in/");
 	  driver.findElement(By.xpath("//*[@id=\"nav-link-accountList\"]/span")).click();
-	  driver.findElement(By.id("ap_email")).sendKeys("+917339362038");
+	  driver.findElement(By.id("ap_email")).sendKeys("##########");
 	  driver.findElement(By.id("continue")).click();
-	  driver.findElement(By.id("ap_password")).sendKeys("@Meen123786");
+	  driver.findElement(By.id("ap_password")).sendKeys("########");
 	  driver.findElement(By.id("signInSubmit")).click();
 	  Thread.sleep(10000);
 	  Assert.assertEquals(driver.findElement(By.xpath("//*[@id=\"nav-link-accountList-nav-line-1\"]")).getText(), "Hello, Ameen");
